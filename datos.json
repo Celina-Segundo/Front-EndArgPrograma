@@ -1,0 +1,21 @@
+var myJSON = {
+    "name":"Celina",
+    "age":29,
+    "cuidad":"Corrientes"
+}
+
+[
+    {
+        "Inst.":"ArgentinaPro",
+        "Cerificado":"...",
+        "Inst.":"..",
+        "Cerificado":"...",
+        "Inst.":"..",
+        "Cerificado":"...",
+        "Inst.":"..",
+        "Cerificado":"...",
+        "Inst.":"..",
+        "Cerificado":"...",
+    }
+]
+

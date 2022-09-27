@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+
 </head>
+
 <body>
+
     <header>
         <nav>
             <a href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa">#YoProgramo</a>
@@ -19,8 +24,11 @@
             <div class="saludo">
                 <h2>Hola, yo soy</h2>
             </div>
-            <h1>Celina Segundo</h1>
-            <h2>Desarrolladora Jr.</h2>
+            <div class="nombre">
+                <h1>Celina Segundo</h1>
+                <h2>Desarrolladora Jr.</h2>
+            </div>
+            <img class="fondo" src="fotos/fondo_principal.png" alt="programming">
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C158.86,190.78 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(146, 142, 142);"></path></svg></div>
     </header>
@@ -29,97 +37,113 @@
         <section class="acerca-de-mi">
             <h2 class="titulo">Acerca de mi..</h2>
             <div class="contenedor-acerca-de-mi">
-                <img src="" alt="">
-                <div class="acerca-texto">
+                
+                <div class="perfil">
+                    <img class="perfil" src="fotos/celina.png" alt="celina_segundo">
+                </div>
+
+                <div class="texto">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sapiente, soluta non eligendi maiores id, quo distinctio doloribus dolore nemo doloremque consequuntur quod recusandae perferendis velit! Assumenda praesentium iusto molestias.</p>
                 </div>
+            
             </div>
         </section>
-
+    </main>
+        
+    <div class="contenedor">
         <section class="proyectos">
             <h2 class="titulo">Proyectos</h2>
             <div class="contenedor-proyectos">
                 <div class="img-proyecto">
                     <img src="" alt="">
                     <div class="hover-galeria">
-                        <p>Hawai Accesorios</p>
-                    </div>
-                </div>
-                <div class="img-proyecto">
-                    <img src="" alt="">
-                    <div class="hover-galeria">
-                        <p>Hawai Accesorios</p>
-                    </div>
-                </div>
-                <div class="img-proyecto">
-                    <img src="" alt="">
-                    <div class="hover-galeria">
-                        <p>Hawai Accesorios</p>
+                        <p>Proyecto</p>
                     </div>
                 </div>
             </div>
         </section>
-    </main>
-
+    </div>
+    
+    <div class="contenedor">
     <section class="formacion">
         <div class="formacion">
             <h2 class="titulo">Formacion</h2>
             <div class="img-formacion">
-                <img src="" alt="">
+                <img src="fotos/arg_program_logo.png" alt="argentina-programa">
                 <div class="hover-formacion">
-                    <a href="">etc</a>
+                    <img src="" alt="">
+                    <a href="">Argentina Programa</a>
+                    <p>En este curso pude comprender las bases de la programacion y empezar a desarrolarme
+                        como developer. Me fomentó a aprender de manera autodidacta y autogestionada. Manejando mis tiempos e intereses.
+                    </p>
                 </div>
             </div>
             <div class="img-formacion">
-                <img src="" alt="">
+                <img src="fotos/egg_logo.jpg" alt="egg-educacion">
                 <div class="hover-formacion">
-                    <a href="">etc</a>
+                    <img src="" alt="">
+                    <a href="">Egg Cooperation</a>
+                    <p>Este fue un curso de 9 meses de puro desarrollo y practicas. En donde pude desarrollar habilidades blandas
+                        como trabajo, intercambio y colaboracion con compañeros diferentes cada dia.
+                    </p>
                 </div>
             </div>
             <div class="img-formacion">
-                <img src="" alt="">
+                <img src="fotos/CertificadoEnPublicida&Marketing.jpg" alt="Crece-con-google">
                 <div class="hover-formacion">
-                    <a href="">etc</a>
-                </div>
-            </div>
-            <div class="img-formacion">
-                <img src="" alt="">
-                <div class="hover-formacion">
-                    <a href="">etc</a>
+                    <img src="" alt="">
+                    <a href="">Google & JA</a>
+                    <p>Esta fue una de las mejores capacitaciones de las que participe. Conociendo e intercambiando conocimientos y experiencias
+                        con mucha gente en el ambito de Marketing Digital, que sin dudas me dio muchas herramientas 
+                        para mejorar mi habilidad como Full Stack Developer.
+                    </p>
                 </div>
             </div>
         </div>
 
     </section>
+</div>
 
+<div class="contenedor">
     <section class="contacto">
+        
         <div class="contenedor-contacto">
+            
             <h2 class="titulo">Contacto</h2>
+            
             <div class="contacto-img">
                 <img src="fotos/gmail.png" alt="">
                 <div class="hover-contacto">
-                    <a href="">Ir a Gmail</a>
+                    <img src="" alt="">
+                    <a href="https://mail.google.com/mail/u/0/#inbox/QgrcJHsbflbgdxpfsPSgcfdZXXbbcwdmfZl?compose=CllgCJZWQDCclXkTcmzqBxBStzBSnWNFvptwLxgxFvWMdkNWPwRDLlBHFxjRzflTHSDFlntWkFL">Ir a Gmail</a>
                 </div>
             </div>
+
             <div class="contacto-img">
-                <img src="fotos/linkedin.png" alt="linkedin>
+                <img src="fotos/linkedin.png" alt="">
                 <div class="hover-contacto">
-                    <a href="https://www.linkedin.com/in/celina-segundo/">Ir a Linkedin</a>
+                    <img src="" alt="">
+                    <a href="">Ir a mi perfil en Linkedin</a>
                 </div>
             </div>
-            <div class="contacto-img">
+            
+                <div class="contacto-img">
                 <img src="fotos/git-hub.png" alt="git-hub">
                 <div class="hover-contacto">
+                    <img src="" alt="">
                     <a href="https://github.com/Celina-Segundo">Ir a GitHub</a>
                 </div>
             </div>
+
         </div>
     </section>
-
+</div>
     <footer>
         <h2 class="titulo-final">Hecho por Celi</h2>
         <h3 class="footer">2022</h3>
     </footer>
+    <script src="js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 </html>
